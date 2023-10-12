@@ -1,0 +1,53 @@
+.site-container {
+    width: 100%;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+}
+
+.import-section {
+    margin-right: 20px;
+}
+
+.file-inp {
+    display: none;
+}
+
+.load-btn {
+    background-color: #2e69c2;
+}
+
+.add-btn {
+    background-color: #2f4592;
+}
+
+
+.data {
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabulator {
+    width: max-content;
+    border: 1px solid #999;
+}
+
+.analysis1 {
+    margin-right: 20px;
+}
+
+.charts {
+    width: 100%;
+    max-height: 50%;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
