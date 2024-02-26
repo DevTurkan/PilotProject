@@ -14,6 +14,7 @@ function Tabulator() {
     const [excelData, setExcelData] = useState([]);
     const [pieChart, setPieChart] = useState(false);
     const [barChart, setBarChart] = useState(false);
+    const [npenrow, setnpenrow] = useState(null);
 
     const [penrow, setpenrow] = useState(null);
     const [isModalOpen, setIsModalOpen] = useState(false);
